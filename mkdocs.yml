@@ -1,0 +1,12 @@
+site_name: LINUX user
+site_url: https://github.com/WonyoungCho/LINUX
+site_description: LINUX user
+repo_url: https://github.com/WonyoungCho/LINUX/
+site_author: Wonyoung Cho
+
+extra_javascript: [docs.js]
+
+pages:
+    - Home: 'readme.md'
+
+theme: readthedocs

@@ -8,5 +8,6 @@ extra_javascript: [docs.js]
 
 pages:
     - Home: 'index.md'
-
+    - Manjaro: 'manjaro_conf.md'
+    
 theme: readthedocs

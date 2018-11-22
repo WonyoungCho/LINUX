@@ -7,14 +7,6 @@
 $ sudo pacman-mirrors --fasttrack && sudo pacman -Syyu
 ```
 
-# DISPLAY MacOS in bootmenu
-```sh
-$ emacs /etc/grub.d/40_custom
-```
-```
-Add 'menuentry "Mac OSX" { exit }'
-```
-
 # Korean keyboard setting
 ```sh
 $ sudo pacman -S ibus-hangul ibus-qt
@@ -67,4 +59,12 @@ $ sudo pacman -S x2goserver
 $ sudo x2godbadmin --createdb   ! create a new database for X2Go
 $ sudo systemctl enable x2goserver.service
 $ sudo systemctl start x2goserver.service
+```
+
+# DISPLAY MacOS in bootmenu
+```sh
+$ emacs /etc/grub.d/40_custom
+```
+```
+Add 'menuentry "Mac OSX" { exit }'
 ```

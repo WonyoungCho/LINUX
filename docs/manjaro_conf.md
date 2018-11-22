@@ -1,1 +1,70 @@
 # Manjaro
+
+<a href="https://manjaro.org/get-manjaro/" target="_blank"> https://manjaro.org/get-manjaro/ </a>
+
+# Manjaro package manager server update
+```sh
+$ sudo pacman-mirrors --fasttrack && sudo pacman -Syyu
+```
+
+# DISPLAY MacOS in bootmenu
+```sh
+$ emacs /etc/grub.d/40_custom
+```
+```
+Add 'menuentry "Mac OSX" { exit }'
+```
+
+# Korean keyboard setting
+```sh
+$ sudo pacman -S ibus-hangul ibus-qt
+$ emacs ~/.xprofile
+```
+```
+export GTK_IM_MODULE=ibus
+export XMODIFIERS=@im=ibus
+export QT_IM_MODULE=ibus
+ibus-daemon -drx
+```
+```sh
+$ sudo reboot now
+```
+```
+1. Bottom right keyboard icon - Preferences
+2. General - Keyboard shortcuts - Next input method - [delete all]
+3. Input method - Add - Korean - Hangul - [delete English]
+```
+
+# Install Cadabra2
+```sh
+$ sudo pacman -Sy yaourt
+$ yaourt -Sy cadabra2-git
+```
+
+# Programs
+```sh
+$ yaourt -Sy google-chrome
+$ yaourt -Sy dropbox
+```
+
+# Programming
+```sh
+$ sudo pacman -S gcc
+$ sudo pacman -S gcc-fortran
+$ sudo pacman -S openmpi
+```
+
+# SSH connection
+```sh
+$ sudo pacman -S openssh
+$ sudo systemctl enable sshd
+$ sudo systemctl start sshd
+```
+
+# GUI - remote desktop protocol
+```sh
+$ sudo pacman -S x2goserver
+$ sudo x2godbadmin --createdb   ! create a new database for X2Go
+$ sudo systemctl enable x2goserver.service
+$ sudo systemctl start x2goserver.service
+```

@@ -10,6 +10,8 @@ pages:
     - Home: 'index.md'
     - Basic command: 'basic_comm.md'
     - Manjaro: 'manjaro_conf.md'
+    - CentOS: 'centos_conf.md'
+    - Slurm: 'slurm_conf.md'
     - Reference: 'reference.md'
     
 theme: readthedocs

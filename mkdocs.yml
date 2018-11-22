@@ -12,6 +12,5 @@ pages:
     - CentOS: 'centos_conf.md'
     - Slurm: 'slurm_conf.md'
     - Manjaro: 'manjaro_conf.md'
-    - Reference: 'reference.md'
     
 theme: readthedocs

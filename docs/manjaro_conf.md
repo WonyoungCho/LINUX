@@ -27,7 +27,7 @@ $ sudo reboot now
 3. Input method - Add - Korean - Hangul - [delete English]
 ```
 
-# Install Cadabra2
+# Cadabra2
 ```sh
 $ sudo pacman -Sy yaourt
 $ yaourt -Sy cadabra2-git

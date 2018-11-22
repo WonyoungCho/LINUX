@@ -1,5 +1,5 @@
 # Manjaro
-<a href="https://manjaro.org/get-manjaro/" target="_blank"> https://manjaro.org/get-manjaro/ </a>
+- <a href="https://manjaro.org/get-manjaro/" target="_blank"> https://manjaro.org/get-manjaro/ </a>
 
 # Package manager server update
 ```sh

@@ -2,7 +2,7 @@
 
 <a href="https://manjaro.org/get-manjaro/" target="_blank"> https://manjaro.org/get-manjaro/ </a>
 
-# Manjaro package manager server update
+# Package manager server update
 ```sh
 $ sudo pacman-mirrors --fasttrack && sudo pacman -Syyu
 ```

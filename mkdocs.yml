@@ -11,4 +11,5 @@ pages:
     - Useful expression: 'useful.md'
     - Manjaro: 'manjaro_conf.md'
     
+    - Reference: 'reference.md'
 theme: readthedocs

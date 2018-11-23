@@ -8,6 +8,7 @@ extra_javascript: [docs.js]
 
 pages:
     - Home: 'index.md'
+    - Configuration: 'config.md'
     - Basic command: 'basic_comm.md'
     - Cluster server: 'cluster_conf.md'
     - Manjaro: 'manjaro_conf.md'

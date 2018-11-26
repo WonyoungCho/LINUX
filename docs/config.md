@@ -4,7 +4,7 @@
 $ emacs ~/.bashrc
 ```
 ```bash
-# Alias for convenience
+# alias for convenience
 alias l='ls'
 alias em='emacs -nw'
 alias edt='emacs -nw ~/.bashrc'

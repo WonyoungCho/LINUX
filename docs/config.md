@@ -19,8 +19,9 @@ alias sq='squeue'
 alias log='sudo sacct -n -X -o User%12,Start,End,Elapsed,AllocNodes,AllocCPUs,State -S 2018-11-23T12:00 -E 2018-11-23T18:00'
 ```
 
-# xrdp - CentOS 7
+# CentOS 7
 
+## xrdp
 ```sh
 $ yum install epel-release -y
 $ yum install xrdp --enablerepo=cr
@@ -36,4 +37,10 @@ $ systemctl enable xrdp.service
   
 $ firewall-cmd --permanent --zone=public --add-port=3389/tcp
 $ firewall-cmd --reload
+```
+
+## hostname
+
+```sh
+hostnamectl set-hostname name
 ```

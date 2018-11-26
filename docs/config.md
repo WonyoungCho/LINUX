@@ -25,10 +25,12 @@ alias log='sudo sacct -n -X -o User%12,Start,End,Elapsed,AllocNodes,AllocCPUs,St
 $ yum install epel-release -y
 $ yum install xrdp --enablerepo=cr
 $ yum -y install tigervnc-server
+```
+REBOOT!
 
-  
+```sh
 $ systemctl start xrdp.service
-$ netstat -antup | grep xrdp     # xrdp 가 동작하는지 확인
+$ netstat -antup | grep xrdp
  
 $ systemctl enable xrdp.service
   

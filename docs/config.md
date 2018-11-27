@@ -79,3 +79,7 @@ gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
 ```sh
 $ yum install google-chrome-stable
 ```
+
+## Cadabra2
+
+<a href="https://github.com/kpeeters/cadabra2" target="_blank"> Cadabra2 </a>

@@ -82,4 +82,4 @@ $ yum install google-chrome-stable
 
 ## Cadabra2
 
-<a href="https://github.com/kpeeters/cadabra2" target="_blank"> Cadabra2 </a>
+<a href="https://github.com/kpeeters/cadabra2" target="_blank"> https://github.com/kpeeters/cadabra2 </a>

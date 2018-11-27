@@ -45,7 +45,7 @@ hostnamectl set-hostname name
 ```
 
 ## Dropbox
-default web browser를 konqueror 외의 것으로 바꾼다.
+Change the default web browser konqueror to other.
 ```sh
 $ cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
 ```

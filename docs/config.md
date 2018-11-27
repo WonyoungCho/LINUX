@@ -40,7 +40,42 @@ $ firewall-cmd --reload
 ```
 
 ## hostname
-
 ```sh
 hostnamectl set-hostname name
+```
+
+## Dropbox
+default web browser를 konqueror 외의 것으로 바꾼다.
+```sh
+$ cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
+```
+```sh
+$ emacs dropboxcheat.c
+```
+```c
+const char *gnu_get_libc_version (void)
+{
+        return "2.19";
+}
+```
+```sh
+$ gcc -Wall -fPIC -shared -o dropboxcheat.so dropboxcheat.c
+$ sudo mv dropboxcheat.so /usr/local/lib64/
+$ sudo LD_PRELOAD=/usr/local/lib64/dropboxcheat.so ~/.dropbox-dist/dropboxd
+```
+
+## Chrome
+```sh
+$ sudo emacs /etc/yum.repos.d/google-chrome.repo
+```
+```sh
+[google-chrome]
+name=google-chrome
+baseurl=http://dl.google.com/linux/chrome/rpm/stable/$basearch
+enabled=1
+gpgcheck=1
+gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
+```
+```sh
+$ yum install google-chrome-stable
 ```

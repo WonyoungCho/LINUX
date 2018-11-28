@@ -63,6 +63,16 @@ $ gcc -Wall -fPIC -shared -o dropboxcheat.so dropboxcheat.c
 $ sudo mv dropboxcheat.so /usr/local/lib64/
 $ sudo LD_PRELOAD=/usr/local/lib64/dropboxcheat.so ~/.dropbox-dist/dropboxd
 ```
+- **Dropbox CLI**
+```sh
+$ cd ~
+$ curl -LO https://www.dropbox.com/download?dl=packages/dropbox.py
+$ chmod +x ~/dropbox.py
+$ ln -s /opt/dropbox ~/.dropbox-dist
+$ ~/dropbox.py
+$ ~/dropbox.py status
+$ sudo service dropbox start
+```
 
 ## Chrome
 ```sh

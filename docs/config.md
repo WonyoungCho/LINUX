@@ -1,4 +1,4 @@
-# Bashrc - alias
+# Bashrc
 
 ```sh
 $ emacs ~/.bashrc
@@ -17,6 +17,9 @@ alias mp='mpif90 -fopenmp -o a'
 # Cluster alias
 alias sq='squeue'
 alias log='sudo sacct -n -X -o User%12,Start,End,Elapsed,AllocNodes,AllocCPUs,State -S 2018-11-23T12:00 -E 2018-11-23T18:00'
+
+# GCC link
+source scl_source enable devtoolset-7
 ```
 
 # CentOS 7

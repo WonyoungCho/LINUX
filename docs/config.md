@@ -4,6 +4,8 @@
 $ emacs ~/.bashrc
 ```
 ```bash
+~/dropbox.py start
+
 # alias for convenience
 alias l='ls'
 alias em='emacs -nw'
@@ -13,6 +15,7 @@ alias f='gfortran -o a'
 alias fp='gfortran -fopenmp -o d'
 alias m='mpif90 -o a'
 alias mp='mpif90 -fopenmp -o a'
+alias nv='nvcc -arch=sm_70 -o a'
 
 # Cluster alias
 alias sq='squeue'

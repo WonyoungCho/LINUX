@@ -26,6 +26,12 @@ source scl_source enable devtoolset-7
 ```
 
 # CentOS 7
+## GCC 7.3.0
+```sh
+$ sudo yum install centos-release-scl
+$ sudo yum install devtoolset-7
+$ sudo yum install devtoolset-7-gcc-7.3.0
+```
 
 ## xrdp
 ```sh
@@ -46,12 +52,10 @@ $ firewall-cmd --reload
 $ sudo emacs -nw /etc/xrdp/xrdp.ini
 ```
 
-## GCC 7.3.0
-```sh
-$ sudo yum install centos-release-scl
-$ sudo yum install devtoolset-7
-$ sudo yum install devtoolset-7-gcc-7.3.0
-```
+## CUDA
+
+- <https://linuxconfig.org/how-to-install-the-nvidia-drivers-on-centos-7-linux>
+- <https://linuxconfig.org/how-to-install-nvidia-cuda-toolkit-on-centos-7-linux>
 
 ## hostname
 ```sh

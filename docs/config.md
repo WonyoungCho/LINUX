@@ -45,6 +45,13 @@ $ firewall-cmd --permanent --zone=public --add-port=3389/tcp
 $ firewall-cmd --reload
 ```
 
+## GCC 7.3.0
+```sh
+$ sudo yum install centos-release-scl
+$ sudo yum install devtoolset-7
+$ sudo yum install devtoolset-7-gcc-7.3.0
+```
+
 ## hostname
 ```sh
 hostnamectl set-hostname name

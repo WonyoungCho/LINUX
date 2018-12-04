@@ -43,6 +43,7 @@ $ systemctl enable xrdp.service
   
 $ firewall-cmd --permanent --zone=public --add-port=3389/tcp
 $ firewall-cmd --reload
+$ sudo emacs -nw /etc/xrdp/xrdp.ini
 ```
 
 ## GCC 7.3.0

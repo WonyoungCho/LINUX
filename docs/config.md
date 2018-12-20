@@ -116,3 +116,20 @@ $ yum install google-chrome-stable
 ```sh
 yum install environment-modules -y
 ```
+
+## Samba
+```bash
+$ sudo yum install samba
+$ sudo smbpasswd -a user_ID
+$ sudo firewall-cmd --permanent --zone=public --add-service=samba
+$ sudo firewall-cmd --reload
+$ sudo emacs /etc/selinux/config
+SELINUX=disabled
+$ sudo service smb restart
+$ sudo systemctl satart smb
+$ sudo systemctl enable smb
+$ sudo reboot now
+```
+```bash
+$ sudo emacs /etc/samba/smb.conf
+```

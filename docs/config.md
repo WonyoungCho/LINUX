@@ -132,4 +132,56 @@ $ sudo reboot now
 ```
 ```bash
 $ sudo emacs /etc/samba/smb.conf
+$ sudo emacs /etc/selinux/config
+SELINUX=disabled
+```
+
+## Add a disk
+```
+$ sudo fdisk -l
+```
+디스크 directory 확인 ex) /dev/sda
+
+```
+$ sudo fdisk /dev/sda
+WARNING: fdisk GPT support is currently new, and therefore in an experimental phase. Use at your own discretion.
+Welcome to fdisk (util-linux 2.23.2).
+
+Changes will remain in memory only, until you decide to write them.
+Be careful before using the write command.
+
+
+Command (m for help): m
+Command action
+   d   delete a partition
+   g   create a new empty GPT partition table
+   G   create an IRIX (SGI) partition table
+   l   list known partition types
+   m   print this menu
+   n   add a new partition
+   o   create a new empty DOS partition table
+   p   print the partition table
+   q   quit without saving changes
+   s   create a new empty Sun disklabel
+   t   change a partition's system id
+   v   verify the partition table
+   w   write table to disk and exit
+   x   extra functionality (experts only)
+
+Command (m for help):
+```
+
+```
+$ sudo mkfs -t ext4 /dev/sda
+$ mkdir ~/share
+$ chmod 777 /share
+$ mount /dev/sda /share
+$ mount 
+```
+위와 같이 mount하고 재부팅하면 mount가 풀린다. 부팅될때 mount 해주려면 `/dev/sda`의 `UUID`를 설정해 주어야 한다.
+
+```
+$ sudo blkid    # UUID 확인
+$ sudo emacs /etc/fstab
+UUID=UUID /dev/sda ext4 defaults 0 0
 ```

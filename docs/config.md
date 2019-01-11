@@ -140,7 +140,7 @@ SELINUX=disabled
 ```
 $ sudo fdisk -l
 ```
-디스크 directory 확인 ex) /dev/sda
+추가된 디스크 확인 ex) /dev/sda
 
 ```
 $ sudo fdisk /dev/sda

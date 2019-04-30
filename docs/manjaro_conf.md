@@ -30,6 +30,10 @@ $ sudo reboot now
 ```sh
 $ sudo pacman -Sy yaourt
 $ yaourt -Sy cadabra2-git
+
+Uninstall
+$ yaourt -R cadabra2-git ( package only )
+$ yaourt -Rsn cadabra2-git ( including dependencies )
 ```
 
 # Programs

@@ -1,10 +1,10 @@
 # Install R-Studio
 
-1. Connect to R Homepage
+1. Connect to R Homepage.
 
 > <https://cran.r-project.org/>
 
-2. Download R-3.6.0.tar.gz
+2. Download R-3.6.0.tar.gz file.
 
 > <https://cran.r-project.org/src/base/R-3/R-3.6.0.tar.gz>
 
@@ -29,11 +29,11 @@ $ ./R
 
 # Install R-Studio Server
 
-1. Connect to R-Stuio Homepage
+1. Connect to R-Stuio Homepage.
 
 > <https://www.rstudio.com/products/rstudio/download/>
 
-2. Download & Install R-Stuio Server
+2. Download & Install R-Stuio Server.
 
 > <https://www.rstudio.com/products/rstudio/download-server/>
 ```
@@ -52,7 +52,7 @@ $ sudo emacs /etc/rstudio/rsession.conf
 www-port=8787
 ```
 
-4. Verification
+4. Verification.
 ```
 $ rstudio-server verify-installation
 ```

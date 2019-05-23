@@ -1,9 +1,3 @@
-# CentOS 7
-
-https://www.centos.org/download/
-
-
-
 # Install R-Studio
 
 1. Connect to R Homepage

@@ -3,10 +3,10 @@
 1. Connect to R Homepage
 https://cran.r-project.org/
 
-1. Download R-3.6.0.tar.gz
+2. Download R-3.6.0.tar.gz
 https://cran.r-project.org/src/base/R-3/R-3.6.0.tar.gz
 
-1. Unzip the R file to a folder.
+3. Unzip the R file to a folder.
 ```
 $ tar -zxvf R-3.6.0.tar.gz -C /home/ycho/R
 ```
@@ -30,7 +30,7 @@ $ ./R
 1. Connect to R-Stuio Homepage
 https://www.rstudio.com/products/rstudio/download/
 
-1. Download & Install R-Stuio Server
+2. Download & Install R-Stuio Server
 https://www.rstudio.com/products/rstudio/download-server/
 ```
 $ wget https://download2.rstudio.org/server/centos6/x86_64/rstudio-server-rhel-1.2.1335-x86_64.rpm
@@ -52,3 +52,4 @@ www-port=8787
 ```
 $ rstudio-server verify-installation
 ```
+

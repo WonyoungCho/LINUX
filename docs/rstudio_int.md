@@ -1,10 +1,10 @@
 # Install R-Studio
 
 1. Connect to R Homepage
-> - <https://cran.r-project.org/>
+<https://cran.r-project.org/>
 
 2. Download R-3.6.0.tar.gz
-> - <https://cran.r-project.org/src/base/R-3/R-3.6.0.tar.gz>
+<https://cran.r-project.org/src/base/R-3/R-3.6.0.tar.gz>
 
 3. Unzip the R file to a folder.
 ```

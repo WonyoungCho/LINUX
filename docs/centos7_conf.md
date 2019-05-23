@@ -1,2 +1,2 @@
-# Istall R-Studio
+# Install R-Studio
 

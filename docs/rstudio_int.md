@@ -1,4 +1,6 @@
-# Install R-Studio
+# Instroduction
+
+## Install R-Studio
 
 1. Connect to R Homepage.
 
@@ -27,7 +29,7 @@ $ ./R
 ```
 
 
-# Install R-Studio Server
+## Install R-Studio Server
 
 1. Connect to R-Stuio Homepage.
 

@@ -1,10 +1,10 @@
 # Install R-Studio
 
 1. Connect to R Homepage
-https://cran.r-project.org/
+- <https://cran.r-project.org/>
 
 2. Download R-3.6.0.tar.gz
-https://cran.r-project.org/src/base/R-3/R-3.6.0.tar.gz
+- <https://cran.r-project.org/src/base/R-3/R-3.6.0.tar.gz>
 
 3. Unzip the R file to a folder.
 ```
@@ -28,10 +28,10 @@ $ ./R
 # Install R-Studio Server
 
 1. Connect to R-Stuio Homepage
-https://www.rstudio.com/products/rstudio/download/
+- <https://www.rstudio.com/products/rstudio/download/>
 
 2. Download & Install R-Stuio Server
-https://www.rstudio.com/products/rstudio/download-server/
+- <https://www.rstudio.com/products/rstudio/download-server/>
 ```
 $ wget https://download2.rstudio.org/server/centos6/x86_64/rstudio-server-rhel-1.2.1335-x86_64.rpm
 $ sudo yum install rstudio-server-rhel-1.2.1335-x86_64.rpm

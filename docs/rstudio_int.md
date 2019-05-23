@@ -30,9 +30,11 @@ $ ./R
 # Install R-Studio Server
 
 1. Connect to R-Stuio Homepage
+
 > <https://www.rstudio.com/products/rstudio/download/>
 
 2. Download & Install R-Stuio Server
+
 > <https://www.rstudio.com/products/rstudio/download-server/>
 ```
 $ wget https://download2.rstudio.org/server/centos6/x86_64/rstudio-server-rhel-1.2.1335-x86_64.rpm
@@ -56,4 +58,5 @@ $ rstudio-server verify-installation
 ```
 
 5. Open R-studio.
+
 > Open web browser - Connect to http://192.168.0.1:8787 - Log in with pc ID and PASSWORD.

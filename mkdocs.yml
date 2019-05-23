@@ -12,6 +12,7 @@ pages:
     - Hardware : 'hardware.md'
     - Basic command: 'basic_comm.md'
     - Cluster server: 'cluster_conf.md'
+    - CentOS 7 : 'centos7_conf.md'
     - Manjaro: 'manjaro_conf.md'
     
 theme: readthedocs

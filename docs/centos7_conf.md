@@ -54,4 +54,4 @@ $ rstudio-server verify-installation
 ```
 
 5. Open R-studio.
-| Open web browser - Connect to http://192.168.0.1:8787 - Log in with pc ID and PASSWORD.
+> Open web browser - Connect to http://192.168.0.1:8787 - Log in with pc ID and PASSWORD.

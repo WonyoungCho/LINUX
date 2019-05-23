@@ -12,7 +12,8 @@ pages:
     - Hardware : 'hardware.md'
     - Basic command: 'basic_comm.md'
     - Cluster server: 'cluster_conf.md'
-    - R-Studio : 'rstudio_int.md'
+    - R-Studio
+        - Introduction : 'rstudio_int.md'
     - Manjaro: 'manjaro_conf.md'
     
 theme: readthedocs

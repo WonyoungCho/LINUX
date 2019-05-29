@@ -12,8 +12,13 @@ pages:
     - Hardware : 'hardware.md'
     - Basic command: 'basic_comm.md'
     - Cluster server: 'cluster_conf.md'
+    - Manjaro: 'manjaro_conf.md'
     - R-Studio:
         - Introduction : 'rstudio_int.md'
-    - Manjaro: 'manjaro_conf.md'
+    - Golang:
+        - Introduction : 'golang_int.md'
+    - Haskell:
+        - Instroduction : 'haskell_int.md'
+
     
 theme: readthedocs

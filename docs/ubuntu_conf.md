@@ -4,7 +4,7 @@
 
 ```sh
 $ cat /etc/apt/sources.list
-$ sudo sed -i 's/archive.ubuntu.com/ftp.daum.net/g' /etc/apt/sources.list
+$ sudo sed -i 's/archive.ubuntu.com/mirror.kakao.com/g' /etc/apt/sources.list
 ```
 
 ## Warning Emacs during compilation

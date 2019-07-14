@@ -34,7 +34,7 @@
 (global-set-key (kbd "<M-up>") 'shrink-window)
 (global-set-key (kbd "<M-right>") 'enlarge-window-horizontally)
 (global-set-key (kbd "<M-left>") 'shrink-window-horizontally)
-(global-set-key (kbd "<f9>") 'smart-compile)
+(global-set-key (kbd "<f9>") 'my-compile)
 
 
 (setq smart-compile-alist
@@ -44,4 +44,10 @@
         ("\\.tex\\'"."pdflatex %f %n")
 	("\\.cu\\'"."nvcc -arch=sm_52 -o a %f && ./a")))
 (setq compilation-read-command nil)
+
+(defun my-compile ()
+  "Save and compile"
+  (interactive)
+  (call-interactively 'save-buffer)
+  (call-interactively 'smart-compile))
 ```

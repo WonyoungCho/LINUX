@@ -23,6 +23,12 @@ $ sudo vi /etc/yum.repos.d/CentOS-Base.repo
 baseurl=http://mirror.kakao.com/centos/$releasever/os/$basearch/
 ```
 
+- Exclude kernel update
+```
+$ sudo vi /etc/yum.conf
+exclude=kernel*
+```
+
 # Cluster alias
 alias sq='squeue'
 alias log='sudo sacct -n -X -o User%12,Start,End,Elapsed,AllocNodes,AllocCPUs,State -S 2018-11-23T12:00 -E 2018-11-23T18:00'

@@ -17,11 +17,16 @@
 - GDDR6 : 18 Gbps
 - NVIDIA NVlink : 32-300 GB/s
 
+
 - 1 MB/s (Giga-bits-persecond) = 8 Mbps
 - 1 MT/s (Megatransfer per second) = 8 MB/s
 
 <https://ko.wikipedia.org/wiki/NVLink>
+
 <https://gigglehd.com/gg/hard/2438205>
+
 <http://www.hwbattle.com/bbs/board.php?bo_table=hottopic&wr_id=1567>
+
 <https://en.wikipedia.org>
+
 <https://kr.transcend-info.com/Support/FAQ-296>

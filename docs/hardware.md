@@ -16,7 +16,12 @@
 - GDDR5X : 12 Gbps
 - GDDR6 : 18 Gbps
 - NVIDIA NVlink : 32-300 GB/s
-
+- USB 2.0 : 480 Mbps
+- USB 3.0 : 5 Gbps
+- USB 3.1 Gen 1 : 5 Gbps
+- USB 3.1 Gen 2 : 10 Gbps
+- USB-C 3.1 Gen 1 : 10 Gbps
+- USB-C 3.1 Gen 2 : 20 Gbps
 
 >- 1 MB/s (Giga-bits-persecond) = 8 Mbps
 >- 1 MT/s (Megatransfer per second) = 8 MB/s

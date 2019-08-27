@@ -35,3 +35,7 @@
 <https://en.wikipedia.org>
 
 <https://kr.transcend-info.com/Support/FAQ-296>
+
+# RAID
+
+<https://mybroadband.co.za/news/hardware/255699-how-raid-can-give-your-hard-drives-ssd-like-performance.html>

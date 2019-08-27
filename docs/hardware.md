@@ -18,8 +18,8 @@
 - NVIDIA NVlink : 32-300 GB/s
 
 
-- 1 MB/s (Giga-bits-persecond) = 8 Mbps
-- 1 MT/s (Megatransfer per second) = 8 MB/s
+>- 1 MB/s (Giga-bits-persecond) = 8 Mbps
+>- 1 MT/s (Megatransfer per second) = 8 MB/s
 
 <https://ko.wikipedia.org/wiki/NVLink>
 

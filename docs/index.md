@@ -35,7 +35,11 @@
 (global-set-key (kbd "<M-right>") 'enlarge-window-horizontally)
 (global-set-key (kbd "<M-left>") 'shrink-window-horizontally)
 (global-set-key (kbd "<f9>") 'my-compile)
+(global-set-key (kbd "\C-z") 'write-print)
 
+(defun write-print ()
+  (interactive)
+  (insert "print("))
 
 (setq smart-compile-alist
       '(("\\.py\\'"."python %n.py")

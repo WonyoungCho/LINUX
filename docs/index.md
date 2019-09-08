@@ -39,7 +39,8 @@
 
 (defun write-print ()
   (interactive)
-  (insert "print("))
+  (insert "print()")
+  (call-interactively 'backward-char))
 
 (setq smart-compile-alist
       '(("\\.py\\'"."python %n.py")

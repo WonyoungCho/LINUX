@@ -5,7 +5,18 @@
 ---
 **Ref** : <a href="https://linux.die.net/man/1/pdsh" target="_blank"> https://linux.die.net/man/1/pdsh </a>
 
-# Read dataframe
+## Read dataframe
 ```
-f=filename.csv ; column -s, -t < ${f} | less -#2 -N -S
+$ f=filename.csv ; column -s, -t < ${f} | less -#2 -N -S
+```
+
+## Lines and columns
+```
+$ wc -l filename.csv # number of lines
+$ awk -F',' '{print NF; exit}' filename.csv # number of columns
+```
+
+## Print file names
+```
+$ find ./  -printf "%f\n"
 ```

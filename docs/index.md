@@ -29,6 +29,8 @@
 (custom-set-variables
  '(haskell-mode-hook '(turn-on-haskell-indentation)))
 
+(normal-erase-is-backspace-mode 1)
+
 (global-set-key (kbd "\C-z") 'write-print)
 (global-set-key (kbd "<M-down>") 'enlarge-window)
 (global-set-key (kbd "<M-up>") 'shrink-window)

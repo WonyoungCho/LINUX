@@ -32,7 +32,7 @@ mechanism if one is available. This may result in lower performance.
 & echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
 ```
 
-# Having problem for display, tk
+# Having problem about display, tk
 ```
 sudo apt install python3-tk
 sudo apt install imagemagick # open an image file

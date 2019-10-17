@@ -26,8 +26,8 @@
 (setq column-number-mode t)
 
 
-(custom-set-variables
- '(haskell-mode-hook '(turn-on-haskell-indentation)))
+;;(custom-set-variables
+;; '(haskell-mode-hook '(turn-on-haskell-indentation)))
 
 (normal-erase-is-backspace-mode 1)
 
@@ -36,8 +36,11 @@
 (global-set-key (kbd "<M-up>") 'shrink-window)
 (global-set-key (kbd "<M-right>") 'enlarge-window-horizontally)
 (global-set-key (kbd "<M-left>") 'shrink-window-horizontally)
+(global-set-key (kbd "<f8>")'kill-compilation)
 (global-set-key (kbd "<f9>") 'my-compile)
-(global-set-key (kbd "\C-z") 'write-print)
+(global-set-key (kbd "<prior>") 'split-window-right)
+(global-set-key (kbd "<next>") 'my-compile)
+(global-set-key (kbd "\C-d") 'my-compile)
 
 (defun write-print ()
   (interactive)

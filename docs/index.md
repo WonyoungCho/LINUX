@@ -60,4 +60,8 @@
   (interactive)
   (call-interactively 'save-buffer)
   (call-interactively 'smart-compile))
+
+(normal-erase-is-backspace-mode 1)
+
+(electric-pair-mode 1) 
 ```

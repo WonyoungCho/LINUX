@@ -54,3 +54,20 @@ $ sudo apt install ubuntu-desktop
 $ sudo apt install xfce4 gnome-terminal
 $ xfce4-session
 ```
+
+# Python3
+```
+$ sudo apt install python3
+$ sudo apt install python3-pip
+```
+
+If error message is shown like below duing installing pip package,
+```
+Traceback (most recent call last):
+  File "/usr/bin/pip3", line 9, in <module>
+    from pip import main
+ImportError: cannot import name 'main'
+```
+```
+$ sudo python3 -m pip uninstall pip && sudo apt-get install python3-pip --reinstall
+```

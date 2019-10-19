@@ -43,5 +43,14 @@ sudo apt install imagemagick # open an image file
 $ sudo add-apt-repository ppa:kelleyk/emacs
 $ sudo apt-get update
 $ sudo apt-get install emacs26
+```
 
+# Desktop
+```
+$ sudo apt-get update
+$ sudo apt-get upgrade
+$ sudo apt install ubuntu-desktop
+
+$ sudo apt install xfce4 gnome-terminal
+$ xfce4-session
 ```

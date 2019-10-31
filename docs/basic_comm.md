@@ -23,8 +23,8 @@ $ find ./  -printf "%f\n"
 
 ## Change file extension
 ```
-rename "s/\.old$/.new/" *
+$ rename "s/\.old$/.new/" *
 ```
 ```
-for f in *.old; do mv -- "$f" "${f%.old}.new"; done
+$ for f in *.old; do mv -- "$f" "${f%.old}.new"; done
 ```

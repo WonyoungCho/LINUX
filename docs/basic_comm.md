@@ -20,3 +20,11 @@ $ awk -F',' '{print NF; exit}' filename.csv # number of columns
 ```
 $ find ./  -printf "%f\n"
 ```
+
+## Change file extension
+```
+rename "s/\.old$/.new/" *
+```
+```
+for f in *.old; do mv -- "$f" "${f%.old}.new"; done
+```

@@ -28,3 +28,11 @@ $ rename "s/\.old$/.new/" *
 ```
 $ for f in *.old; do mv -- "$f" "${f%.old}.new"; done
 ```
+
+## Firewall
+```
+sudo firewall-cmd --add-service=http --permanent
+sudo firewall-cmd --add-port=xxx/tcp --zone=public --permanent #--zone=dmz
+sudo firewall-cmd --reload
+```
+

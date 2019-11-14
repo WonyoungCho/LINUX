@@ -37,7 +37,7 @@ sudo firewall-cmd --reload
 ```
 
 ## Running jobs
-When we run same jobs, xargs is used.
+When we run jobs, xargs is used to run commands line by line.
 ```
 $ cat bam2pro.txt
 samtools view -b 1.bam|samtools mpileup -| sam2pro -c 6 > 1.bam.pro
@@ -50,4 +50,22 @@ samtools view -b 5.bam|samtools mpileup -| sam2pro -c 6 > 5.bam.pro
 ```
 $ cat bam2pro.txt | xargs -L 1 -I CMD -P 8 bash -c CMD
 ```
--P 8 : run 8 lines simultaneously.
+-L 1 : splits by each lines
+-I CMD : replace-str to command
+-P 8 : run 8 lines simultaneously
+bash -c CMD : run cmd
+bash -i : run an interactive shell (and sources .bashrc)
+```
+Quoting from man bash:
+
+   -c string If the -c option is present,  then  commands  are  read  from
+             string.   If  there  are arguments after the string, they are
+             assigned to the positional parameters, starting with $0.
+```          
+
+<https://www.gnu.org/software/findutils/manual/html_node/find_html/xargs-options.html#xargs-options>
+
+## gz file
+```
+$ gzip -d xxx.gz
+```

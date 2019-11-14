@@ -67,7 +67,7 @@ Quoting from man bash:
 ```
 - <https://mug896.github.io/bash-shell/interactive_non-interactive.html>
 - <https://linux.die.net/man/1/bash>
-- <https://www.gnu.org/software/findutils/manual/html_node/find_html/xargs-options.html#xargs-options>
+- <https://www.gnu.org/software/findutils/manual/html_node/find_html/xargs-options.html>
 
 ## gz file
 ```

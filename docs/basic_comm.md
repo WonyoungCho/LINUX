@@ -36,3 +36,18 @@ sudo firewall-cmd --add-port=xxx/tcp --zone=public --permanent #--zone=dmz
 sudo firewall-cmd --reload
 ```
 
+## Running jobs
+When we run same jobs, xargs is used.
+```
+$ cat bam2pro.txt
+samtools view -b 1.bam|samtools mpileup -| sam2pro -c 6 > 1.bam.pro
+samtools view -b 2.bam|samtools mpileup -| sam2pro -c 6 > 2.bam.pro
+samtools view -b 3.bam|samtools mpileup -| sam2pro -c 6 > 3.bam.pro
+samtools view -b 4.bam|samtools mpileup -| sam2pro -c 6 > 4.bam.pro
+samtools view -b 5.bam|samtools mpileup -| sam2pro -c 6 > 5.bam.pro
+...
+```
+```
+$ cat bam2pro.txt | xargs -L 1 -I CMD -P 8 bash -c CMD
+```
+-P : run 8 lines simultaneously.

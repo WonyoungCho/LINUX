@@ -50,4 +50,4 @@ samtools view -b 5.bam|samtools mpileup -| sam2pro -c 6 > 5.bam.pro
 ```
 $ cat bam2pro.txt | xargs -L 1 -I CMD -P 8 bash -c CMD
 ```
--P : run 8 lines simultaneously.
+-P 8 : run 8 lines simultaneously.

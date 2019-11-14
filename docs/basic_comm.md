@@ -63,7 +63,7 @@ Quoting from man bash:
      If there are arguments after the string, they are assigned to the positional
      parameters, starting with $0.
 ```          
-
+<https://linux.die.net/man/1/bash>
 <https://www.gnu.org/software/findutils/manual/html_node/find_html/xargs-options.html#xargs-options>
 
 ## gz file

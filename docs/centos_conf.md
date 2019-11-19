@@ -12,6 +12,18 @@ $ sudo emacs /bin/yum
 $ sudo emacs /usr/libexec/urlgrabber-ext-down
 ```
 
+# GCC 7
+```
+$ sudo yum install centos-release-scl
+$ sudo yum install devtoolset-7
+$ sudo yum install devtoolset-7-gcc-7.3.0
+```
+
+# PyCuda
+```
+sudo pip install pycuda
+```
+
 # Enviroment modules
 ```
 $ sudo yum install environment-modules -y

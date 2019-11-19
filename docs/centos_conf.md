@@ -16,7 +16,6 @@ $ sudo emacs /usr/libexec/urlgrabber-ext-down
 ```
 $ sudo yum install centos-release-scl
 $ sudo yum install devtoolset-7
-$ sudo yum install devtoolset-7-gcc-7.3.0
 
 $ emacs ~/.bashrc
 source scl_source enable devtoolset-7

@@ -35,7 +35,7 @@ $ wget https://download.open-mpi.org/release/open-mpi/v3.1/openmpi-3.1.2.tar.gz
 $ tar -xzf openmpi-*.tar.gz && cd openmpi-*
 $ ./configure --with-cuda
 $ make -j$(nproc) 
-$ make install
+$ sudo make install
 ```
 
 # Enviroment modules

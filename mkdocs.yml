@@ -13,6 +13,7 @@ pages:
     - Basic command: 'basic_comm.md'
     - Cluster server: 'cluster_conf.md'
     - Manjaro: 'manjaro_conf.md'
+    - CentOS: 'centos_conf.md'
     - Ubuntu : 'ubuntu_conf.md'
     - R-Studio:
         - Introduction : 'rstudio_int.md'

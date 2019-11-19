@@ -33,5 +33,4 @@ sudo pip install pycuda
 # Enviroment modules
 ```
 $ sudo yum install environment-modules -y
-
 ```

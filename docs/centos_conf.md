@@ -1,3 +1,14 @@
+# Python3
+```
+$ sudo yum install -y https://centos7.iuscommunity.org/ius-release.rpm
+$ sudo yum install -y python36 python36-libs python36-devel python36-pip
+$ ls -l /bin/python*
+$ sudo unlink /bin/python
+$ sudo ln -s /bin/python3.6 /bin/python3
+$ sudo ln -s /bin/python3.6 /bin/python
+$ sudo ln -s /bin/pip3.6 /bin/pip
+```
+
 # Enviroment modules
 ```
 $ sudo yum install environment-modules -y

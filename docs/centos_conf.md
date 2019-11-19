@@ -7,6 +7,9 @@ $ sudo unlink /bin/python
 $ sudo ln -s /bin/python3.6 /bin/python3
 $ sudo ln -s /bin/python3.6 /bin/python
 $ sudo ln -s /bin/pip3.6 /bin/pip
+
+$ sudo emacs /bin/yum
+$ sudo emacs /usr/libexec/urlgrabber-ext-down
 ```
 
 # Enviroment modules

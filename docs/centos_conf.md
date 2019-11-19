@@ -38,6 +38,11 @@ $ make -j$(nproc)
 $ sudo make install
 ```
 
+# MPI4Py
+```
+$ sudo pip install mpi4py
+```
+
 # Enviroment modules
 ```
 $ sudo yum install environment-modules -y

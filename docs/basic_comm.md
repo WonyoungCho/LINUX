@@ -73,3 +73,8 @@ Quoting from man bash:
 ```
 $ gzip -d xxx.gz
 ```
+
+## SCP
+```
+$ scp -o StrictHostKeyChecking=no
+```

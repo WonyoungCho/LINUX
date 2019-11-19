@@ -10,6 +10,8 @@ $ sudo ln -s /bin/pip3.6 /bin/pip
 
 $ sudo emacs /bin/yum
 $ sudo emacs /usr/libexec/urlgrabber-ext-down
+
+$ sudo pip install numpy pandas matplolib scipy seaborn tqdm
 ```
 
 # GCC 7

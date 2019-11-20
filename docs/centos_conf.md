@@ -47,3 +47,18 @@ $ sudo pip install mpi4py
 ```
 $ sudo yum install environment-modules -y
 ```
+
+# alias
+```
+alias edt='emacs -nw ~/.bashrc'
+alias em='emacs -nw'
+alias sem='sudo emacs -nw'
+alias l='ls'
+alias df='df -h'
+alias du='du -h'
+```
+
+# Link path
+```
+export PATH="/ssd/program/plink:$PATH"
+```

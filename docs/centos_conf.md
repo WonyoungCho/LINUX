@@ -74,9 +74,12 @@ alias l='ls'
 alias df='df -h'
 alias du='du -h'
 alias jn='jupyter notebook &'
+alias tl='tmux ls'
+alias t0='tmux attach -t 0'
 ```
 
 # Link path
 ```
+$ emacs ~/.bashrc
 export PATH="/ssd/program/plink:$PATH"
 ```

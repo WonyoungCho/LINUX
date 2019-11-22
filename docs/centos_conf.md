@@ -13,8 +13,25 @@ $ sudo emacs /usr/libexec/urlgrabber-ext-down
 ```
 exit and login again
 ```
-$ sudo pip install numpy pandas matplolib scipy seaborn tqdm pandas_plink
+$ sudo pip install numpy pandas matplolib scipy seaborn tqdm pandas_plink keras tensorflow jupyter
 ```
+- Jupyter notebook
+```
+$ jupyter notebook --generate-config
+Writing default config to: /home/ubuntu/.jupyter/jupyter_notebook_config.py
+
+$ emacs jupyter_notebook_config.py
+c.NotebookApp.allow_remote_access = True
+c.NotebookApp.ip = '192.168.0.10'
+
+$ sudo firewall-cmd --permanent --zone=public --add-port=8888/tcp
+$ sudo firewall-cmd --reload
+
+$ jupyter notebook &
+$ firefox &
+http://192.168.0.10:8888
+```
+
 
 # GCC 7
 ```
@@ -56,6 +73,7 @@ alias sem='sudo emacs -nw'
 alias l='ls'
 alias df='df -h'
 alias du='du -h'
+alias jn='jupyter notebook &'
 ```
 
 # Link path

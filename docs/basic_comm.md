@@ -44,7 +44,7 @@ import pandas as pd
 
 df=pd.read_csv('list.txt',header=None)
 df.columns=['FILE']
-df['CMD']='samtools view -b df['FILE']+'|samtools mpileup -| sam2pro -c 6 > df['FILE']+'.pro'
+df['CMD']='samtools view -b '+df['FILE']+'|samtools mpileup -| sam2pro -c 6 > '+ df['FILE']+'.pro'
 
 print(df['CMD'])
 

@@ -41,13 +41,12 @@ Make a command file using python.
 ```
 import pandas as pd
 
-kind='1000G'
+
 df=pd.read_csv('list.txt',header=None)
 df.columns=['FILE']
 df['CMD']='samtools view -b df['FILE']+'|samtools mpileup -| sam2pro -c 6 > df['FILE']+'.pro'
 
 print(df['CMD'])
-
 
 df['CMD'].to_csv('bam2pro.txt',index=None)
 ```

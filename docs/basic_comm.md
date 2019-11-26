@@ -37,7 +37,22 @@ sudo firewall-cmd --reload
 ```
 
 ## Running jobs
-When we run jobs, xargs is used to run commands line by line.
+Make a command file using python.
+```
+import pandas as pd
+
+kind='1000G'
+df=pd.read_csv('list.txt',header=None)
+df.columns=['FILE']
+df['CMD']='samtools view -b df['FILE']+'|samtools mpileup -| sam2pro -c 6 > df['FILE']+'.pro'
+
+print(df['CMD'])
+
+
+df['CMD'].to_csv('bam2pro.txt',index=None)
+```
+
+When we run jobs, the xargs is used to run commands line by line.
 ```
 $ cat bam2pro.txt
 samtools view -b 1.bam|samtools mpileup -| sam2pro -c 6 > 1.bam.pro

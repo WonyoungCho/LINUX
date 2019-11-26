@@ -48,7 +48,7 @@ df['CMD']='samtools view -b df['FILE']+'|samtools mpileup -| sam2pro -c 6 > df['
 
 print(df['CMD'])
 
-df['CMD'].to_csv('bam2pro.txt',index=None)
+df['CMD'].to_csv('bam2pro.txt',index=None,header=None)
 ```
 
 When we run jobs, the xargs is used to run commands line by line.

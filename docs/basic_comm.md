@@ -106,3 +106,7 @@ $ sed '/MT/d' myfile > urfile  # d : delete lines which include 'MT' in myfile a
 $ sed -i -e '/MT/d' -e '/GL/d' myfile  # -i : write in input file, -e : multiple command
 ```
 
+## Parallel
+```
+$ parallel -j 30 {} < myfile.txt
+```

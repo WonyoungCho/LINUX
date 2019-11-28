@@ -94,9 +94,13 @@ $ scp -o StrictHostKeyChecking=no
 ```
 
 ## AWK
-To see the first culomn's unique items.
+- To see the first column's unique items.
 ```
 $ awk -F" " '!_[$1]++' filename
+```
+- To find rows which have 'chr1'
+```
+$ awk '$1 == "chr1" {print}' filename > newfile
 ```
 
 ## SED

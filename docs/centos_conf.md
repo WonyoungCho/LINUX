@@ -83,3 +83,19 @@ alias t0='tmux attach -t 0'
 $ emacs ~/.bashrc
 export PATH="/ssd/program/plink:$PATH"
 ```
+
+# X11
+```
+$ sudo yum install -y xorg-x11-apps
+$ sudo yum groupinstall -y "X Window System" "Desktop" "Fonts" "Korean Support"
+$ sudo emacs /etc/ssh/sshd_config
+AddressFamily any -> AddressFamily inet
+X11Forwarding yes
+X11DisplayOffset 10
+X11UseLocalhost no
+UseLogin no
+
+$ sudo nvidia-xconfig
+$ touch ~/.Xauthority
+$ reboot
+```

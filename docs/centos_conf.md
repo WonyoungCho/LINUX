@@ -13,7 +13,7 @@ $ sudo emacs /usr/libexec/urlgrabber-ext-down
 ```
 exit and login again
 ```
-$ sudo pip install numpy pandas matplolib scipy seaborn tqdm pandas_plink keras tensorflow jupyter
+$ sudo pip install numpy pandas matplolib scipy seaborn tqdm pandas_plink keras tensorflow jupyter python3-tkinter
 ```
 - Jupyter notebook
 ```

@@ -1,3 +1,6 @@
+# Linux directory
+- <https://webdir.tistory.com/101>
+
 # Basic command
 - pdsh : run a command on multiple nodes in parallel
 > - pdsh -w 'node_name'

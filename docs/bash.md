@@ -20,6 +20,7 @@ do
     fi
 done < "$input"
 ```
+<https://stackoverflow.com/questions/14093452/grep-only-the-first-match-and-stop>
 
 # Run script
 ```

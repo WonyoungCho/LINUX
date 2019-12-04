@@ -11,6 +11,7 @@ pages:
     - Configuration: 'config.md'
     - Hardware : 'hardware.md'
     - Basic command: 'basic_comm.md'
+    - Bash script: 'bash.md'
     - Cluster server: 'cluster_conf.md'
     - Manjaro: 'manjaro_conf.md'
     - CentOS: 'centos_conf.md'

@@ -94,7 +94,7 @@ done < "$input"
 
 
 # Run script
-```
+```bash
 #!/bin/bash
 
 for i in {1..22} X Y
@@ -105,14 +105,14 @@ done
 ```
 
 # Replace
-```
+```bash
 #!/bin/bash
 
 sed -i 's/-/"/' pro2chrms.txt
 ```
 
 # Combine
-```
+```bash
 #!/bin/bash
 
 arg=("$@")
@@ -121,7 +121,7 @@ paste hs38_${arg[1]} In_GFE_${arg[1]}.* > In_GFE_${arg[1]}.txt && sm.sh Done_to_
 ```
 
 # Send email
-```
+```bash
 #!/bin/bash
 
 ssh userID@192.168.0.1 'mail -s "Your job is completed." mailID@mail.com <<< '$@

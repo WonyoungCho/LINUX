@@ -11,7 +11,7 @@ chrmList=list(map(str, range(1,23)))+['X','Y']
 maxChrm1=0
 maxChrm2=0
 kind='kind'
-path='./'+kind+'/'
+path='./'+kind+'/GFE_Result/'
 
 for nb in chrmList:
     df=pd.read_csv(path+'GFE_chr'+nb+'_info.txt',sep='\s+',header=None)

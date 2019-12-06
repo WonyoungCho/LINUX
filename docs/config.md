@@ -1,5 +1,5 @@
 # Tmux
-- Install tmux 2.8 on Centos
+- Install tmux on Centos
 ```
 $ sudo yum install libevent-devel ncurses-devel automake
 
@@ -31,6 +31,16 @@ set -g mouse on
 
 bind-key y set-window-option synchronize-panes
 
+source-file "${HOME}/.tmux-themepack/powerline/block/green.tmuxtheme"
+```
+
+- Theme
+```
+$ git clone https://github.com/jimeh/tmux-themepack.git ~/.tmux-themepack
+```
+> - <https://github.com/jimeh/tmux-themepack>
+
+```
 # THEME
 set -g status-bg black
 set -g status-fg white

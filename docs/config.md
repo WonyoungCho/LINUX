@@ -11,7 +11,7 @@ $ make
 $ sudo make install
 $ tmux -V
 ```
-<https://github.com/tmux/tmux/releases>
+> - <https://github.com/tmux/tmux/releases>
 
 - Configure
 ```

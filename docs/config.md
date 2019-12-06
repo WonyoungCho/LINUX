@@ -37,6 +37,7 @@ source-file "${HOME}/.tmux-themepack/powerline/block/green.tmuxtheme"
 - Theme
 ```
 $ git clone https://github.com/jimeh/tmux-themepack.git ~/.tmux-themepack
+source-file "${HOME}/.tmux-themepack/powerline/block/green.tmuxtheme" # ~/.tmux.conf
 ```
 > - <https://github.com/jimeh/tmux-themepack>
 

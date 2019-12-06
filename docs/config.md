@@ -5,6 +5,7 @@ $ sudo yum install libevent-devel ncurses-devel automake
 
 $ sudo yum remove tmux # remove old version of tmux
 $ wget https://github.com/tmux/tmux/releases/download/3.0/tmux-3.0.tar.gz
+$ tar -xf tmux-3.0.tar.gz
 $ cd tmux-3.0
 $ LDFLAGS="-L/usr/local/lib -Wl,-rpath=/usr/local/lib" ./configure --prefix=/usr/local
 $ make
@@ -26,6 +27,20 @@ bind -n End send-key C-e
 bind -n Home send-key C-a
 
 set -g mouse on
+
+
+bind-key y set-window-option synchronize-panes
+
+# THEME
+set -g status-bg black
+set -g status-fg white
+set -g window-status-current-style bg=white
+set -g window-status-current-style fg=black
+set -g window-status-current-style bold
+#set -g status-interval 60
+set -g status-left-length 30
+set -g status-left '#[fg=green](#S) #(whoami)'
+set -g status-right '#[fg=yellow]#(cut -d " " -f 1-3 /proc/loadavg)#[default] #[fg=white]%H:%M#[default]'
 ```
 
 - Emacs in tmux

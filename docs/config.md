@@ -54,11 +54,6 @@ set -g status-left '#[fg=green](#S) #(whoami)'
 set -g status-right '#[fg=yellow]#(cut -d " " -f 1-3 /proc/loadavg)#[default] #[fg=white]%H:%M#[default]'
 ```
 
-- Emacs in tmux
-```
-alias emacs='TERM=xterm emacs -nw'
-```
-
 # Bashrc
 
 ```sh

@@ -35,7 +35,7 @@ unbind C-b
 set-option -g prefix F10    # prefix is F10 (really Caps Lock)
 
 set-window-option -g xterm-keys on
-set -g default-terminal "screen-256color"
+set -g default-terminal "xterm"
 
 bind -n End send-key C-e
 bind -n Home send-key C-a

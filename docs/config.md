@@ -1,16 +1,17 @@
 # Tmux
 - Install tmux 2.8 on Centos
 ```
-$ sudo yum remove tmux # remove old version of tmux
-$ git clone https://github.com/tmux/tmux.git
-$ cd tmux
-$ git checkout 2.8
-$ sh autogen.sh
 $ sudo yum install libevent-devel ncurses-devel automake
-$ ./configure && make
+
+$ sudo yum remove tmux # remove old version of tmux
+$ wget https://github.com/tmux/tmux/releases/download/3.0/tmux-3.0.tar.gz
+$ cd tmux-3.0
+$ LDFLAGS="-L/usr/local/lib -Wl,-rpath=/usr/local/lib" ./configure --prefix=/usr/local
+$ make
 $ sudo make install
 $ tmux -V
 ```
+<https://github.com/tmux/tmux/releases>
 
 - Configure
 ```

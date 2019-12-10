@@ -27,7 +27,7 @@ bind -n End send-key C-e
 bind -n Home send-key C-a
 
 set -g mouse on
-
+bind-key -n MouseDown2Pane run "tmux set-buffer \"$(xclip -o -sel clipboard)\"; tmux paste-buffer"
 
 bind-key y set-window-option synchronize-panes
 

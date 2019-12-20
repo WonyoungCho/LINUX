@@ -64,4 +64,10 @@
 (normal-erase-is-backspace-mode 1)
 
 (electric-pair-mode 1) 
+
+(xterm-mouse-mode 1)
+
+(setq select-active-rgions nil)
+(setq mouse-drag-copy-region t)
+(global-set-key (kbd "<mouse-3>") 'mouse-yank-at-click)
 ```

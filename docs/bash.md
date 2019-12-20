@@ -162,10 +162,7 @@ def readFiles():
         while a0.split()[1]!=b.split()[1]:
             b=inFile.readline()
 
-        #print(b)
         outFile.write(b)
-        #break
-        
         
 if __name__ == "__main__":
     if not(len(sys.argv) == 2):

@@ -127,7 +127,7 @@ paste hs38_${arg[1]} In_GFE_${arg[1]}.* > In_GFE_${arg[1]}.txt && sm.sh Done_to_
 ssh userID@192.168.0.1 'mail -s "Your job is completed." mailID@mail.com <<< '$@
 ```
 
-# Selection
+# Select data
 ```
 import sys
 import time

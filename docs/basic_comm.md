@@ -120,6 +120,7 @@ $ parallel -j 30 {} < myfile.txt
 
 ## Job list
 ```
+$ for i in {1..22} X Y;do ls ../chr$i/*.bam > chr$i.bam.filelist;done
 $ for i in {1..22} X Y;do echo "angsd -b chr$i.bam.filelist -GL 1 -doMajorMinor 1 -doMaf 2 -out ./angsd_result/chr$i.out_samtools";done > angsd.samtools.list
 
 $ parallel -j 24 {} < angsd.samtools.list

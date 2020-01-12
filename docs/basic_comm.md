@@ -106,11 +106,17 @@ $ awk -F" " '!_[$1]++' filename
 $ awk '$1 == "chr1" {print}' filename > newfile
 ```
 
+```
+$ 
+```
+
 ## SED
 ```
 $ sed '/MT/d' myfile > urfile  # d : delete lines which include 'MT' in myfile and make a result to urfile.
 
 $ sed -i -e '/MT/d' -e '/GL/d' myfile  # -i : write in input file, -e : multiple command
+
+$ sed -i 's/+/"/' myfile
 ```
 
 ## Parallel

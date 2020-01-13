@@ -91,6 +91,15 @@ Quoting from man bash:
 $ gzip -d xxx.gz
 ```
 
+## OS
+```
+import os
+os.path.isfile(myfile) # the file existence
+os.getcwd() # the current directory
+os.path.realpath(__file__) # save the file directory
+os.path.dirname(os.path.realpath(__file__)) )# the file directory
+```
+
 ## SCP
 ```
 $ scp -o StrictHostKeyChecking=no

@@ -140,3 +140,8 @@ $ for i in {1..22} X Y;do echo "angsd -b chr$i.bam.filelist -GL 1 -doMajorMinor 
 
 $ parallel -j 24 {} < angsd.samtools.list
 ```
+
+# Remove
+```
+find . -name '*.InGFE' -exec rm {} \;
+```

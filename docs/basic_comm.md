@@ -106,7 +106,7 @@ $ scp -o StrictHostKeyChecking=no
 ```
 
 ## AWK
-- To see the first column's unique items.
+- To see the first column's unique items. -F : sepator
 ```
 $ awk -F" " '!_[$1]++' filename
 ```
@@ -114,9 +114,9 @@ $ awk -F" " '!_[$1]++' filename
 ```
 $ awk '$1 == "chr1" {print}' filename > newfile
 ```
-
+- With two separator, . and /
 ```
-$ 
+$ awk -F'[./]' {print $1} filename
 ```
 
 ## SED

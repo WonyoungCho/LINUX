@@ -118,6 +118,10 @@ $ awk '$1 == "chr1" {print}' filename > newfile
 ```
 $ awk -F'[./]' {print $1} filename
 ```
+- Find maximum value
+```
+$ awk -F/ 'BEGIN {max = 0} {if ($1>max) max=$1} END {print max}' filename
+```
 
 ## SED
 ```

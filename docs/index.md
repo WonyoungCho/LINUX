@@ -1,7 +1,7 @@
 # LINUX
 
 ```
-# emacs ~/.emacs
+$ emacs ~/.emacs
 (require 'package)
 
 (setq package-archives '(("gnu" . "https://elpa.gnu.org/packages/")

@@ -69,7 +69,7 @@ export LD_LIBRARY_PATH=/home/ycho/libevent/lib:$LD_LIBRARY_PATH
 # tmux.conf
 ```
 $ cd
-$ wget https://raw.githubusercontent.com/gpakosz/.tmux/master/.tmux.conf
+$ wget https://raw.githubusercontent.com/WonyoungCho/LINUX/master/docs/.tmux.conf
 ```
 ```
 unbind C-b

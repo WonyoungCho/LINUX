@@ -1,6 +1,7 @@
 # LINUX
 
 ```
+# emacs ~/.emacs
 (require 'package)
 
 (setq package-archives '(("gnu" . "https://elpa.gnu.org/packages/")
@@ -70,4 +71,7 @@
 (setq select-active-rgions nil)
 (setq mouse-drag-copy-region t)
 (global-set-key (kbd "<mouse-3>") 'mouse-yank-at-click)
+
+(add-hook 'python-mode-hook
+  (lambda () (setq python-indent-offset 4)))
 ```

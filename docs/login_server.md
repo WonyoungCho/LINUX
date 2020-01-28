@@ -101,4 +101,6 @@ bind Tab last-window
 bind a run "cut -c3- ~/.tmux.conf | sh -s _toggle_mouse"
 
 run 'cut -c3- ~/.tmux.conf | sh -s _apply_configuration'
+
+bind-key -n MouseDown3Pane run "tmux set-buffer \"$(xclip -o -sel clipboard)\"; tmux paste-buffer; tmux display-message 'pasted!'"
 ```

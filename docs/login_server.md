@@ -37,3 +37,31 @@ $ DIR="$HOME/libevent"
 $ ./configure --prefix=/home/ycho/tmux-3.0a CFLAGS="-I$DIR/include" LDFLAGS="-L$DIR/lib"
 $ make && make install
 ```
+
+# Bashrc
+```
+$ vi ~/.bashrc
+alias edt='emacs -nw ~/.bashrc'
+alias edm='emacs -nw ~/.tmux.conf'
+alias em='emacs'
+
+alias l='ls'
+alias les='less -N'
+alias tl='tmux ls'
+alias t0='tmux attach -t 0'
+alias t1='tmux attach -t 1'
+alias t2='tmux attach -t 2'
+alias t3='tmux attach -t 3'
+alias t4='tmux attach -t 4'
+alias t5='tmux attach -t 5'
+alias t6='tmux attach -t 6'
+alias t7='tmux attach -t 7'
+alias t8='tmux attach -t 8'
+alias t9='tmux attach -t 9'
+alias du='du -h'
+alias df='df -h'
+
+export PATH="/home/ycho/emacs/bin:/home/ycho/htop-2.2.0/bin:/home/ycho/tmux-3.0a/bin:$PATH"
+
+export LD_LIBRARY_PATH=/home/ycho/libevent/lib:$LD_LIBRARY_PATH
+```

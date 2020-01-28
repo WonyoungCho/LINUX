@@ -65,3 +65,40 @@ export PATH="/home/ycho/emacs/bin:/home/ycho/htop-2.2.0/bin:/home/ycho/tmux-3.0a
 
 export LD_LIBRARY_PATH=/home/ycho/libevent/lib:$LD_LIBRARY_PATH
 ```
+
+# tmux.conf
+```
+unbind C-b
+set-option -g prefix F10
+
+set-window-option -g xterm-keys on
+set -g default-terminal "xterm"
+
+bind -n End send-key C-e
+bind -n Home send-key C-a
+
+set -g history-limit 50000
+
+set -g base-index 1
+setw -g pane-base-index 1
+
+setw -g automatic-rename on
+set -g renumber-windows on
+
+set -g set-titles on
+
+set -g display-panes-time 800
+set -g display-time 1000
+
+set -g status-interval 10
+
+bind C-f command-prompt -p find-session 'switch-client -t %%'
+
+bind v split-window -v
+bind h split-window -h
+bind Tab last-window
+
+bind a run "cut -c3- ~/.tmux.conf | sh -s _toggle_mouse"
+
+run 'cut -c3- ~/.tmux.conf | sh -s _apply_configuration'
+```

@@ -13,6 +13,7 @@ pages:
     - Basic command: 'basic_comm.md'
     - Bash script: 'bash.md'
     - Cluster server: 'cluster_conf.md'
+    - Login server: 'login_server.md'
     - Manjaro: 'manjaro_conf.md'
     - CentOS: 'centos_conf.md'
     - Ubuntu : 'ubuntu_conf.md'

@@ -39,3 +39,12 @@
 # RAID
 
 <https://mybroadband.co.za/news/hardware/255699-how-raid-can-give-your-hard-drives-ssd-like-performance.html>
+
+# Memory structure
+
+- Stack : save local variables
+- Heap : allocate dynamic memory
+- Data : save global and static variables
+- BSS (Block Started by Symbol) : save not initiated global and static variables
+- Code : save commands
+

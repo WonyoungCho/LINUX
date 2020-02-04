@@ -149,5 +149,16 @@ $ parallel -j 24 {} < angsd.samtools.list
 
 # Remove
 ```
-find . -name '*.InGFE' -exec rm {} \;
+$ find . -name '*.InGFE' -exec rm {} \;
+```
+
+# Less
+If you want to see realtime file contents, the option is `+F`.
+```
+$ less +F myfile.txt
+```
+
+Trun off the word-warp option is `-S`.
+```
+$ less -S myfile.txt
 ```

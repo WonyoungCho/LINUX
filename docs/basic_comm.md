@@ -149,7 +149,7 @@ $ parallel -j 24 {} < angsd.samtools.list
 
 # Remove
 ```
-$ find . -name '*.InGFE' -exec rm {} \;
+find . -name '*.InGFE' -exec rm {} \;
 ```
 
 # Less

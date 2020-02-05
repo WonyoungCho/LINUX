@@ -131,7 +131,7 @@ $ sed -i -e '/MT/d' -e '/GL/d' myfile  # -i : write in input file, -e : multiple
 
 $ sed -i 's/+/"/' myfile
 
-$ sed '3iLINE contents' myfile > outfile  # 3i: 'LINE contents' is inserted into 3rd line of myfile.
+$ sed -i '3iLINE contents' myfile  # 3i: 'LINE contents' is inserted into 3rd line of myfile.
 ```
 
 ## Parallel

@@ -162,3 +162,12 @@ In order to trun off the word-warp in less, the option is `-S`.
 ```
 $ less -S myfile.txt
 ```
+
+# Sort
+```
+$ sort -nr -k 7 myfile.txt > newfile.txt
+```
+- `-n` : numeric data
+- `-r` : in reverse order (higher is first)
+- `-k` : basis of any columns number
+<https://www.geeksforgeeks.org/sort-command-linuxunix-examples/>

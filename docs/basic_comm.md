@@ -170,5 +170,6 @@ $ sort -nr -k 7 myfile.txt > newfile.txt
 - `-n` : numeric data
 - `-r` : in reverse order (higher is first)
 - `-k` : basis of any columns number
+- `-u` : to sort and remove duplicate
 
 <https://www.geeksforgeeks.org/sort-command-linuxunix-examples/>

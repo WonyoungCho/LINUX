@@ -147,12 +147,12 @@ $ for i in {1..22} X Y;do echo "angsd -b chr$i.bam.filelist -GL 1 -doMajorMinor 
 $ parallel -j 24 {} < angsd.samtools.list
 ```
 
-# Remove
+## Remove
 ```
 find . -name '*.InGFE' -exec rm {} \;
 ```
 
-# Less
+## Less
 If you want to see realtime file contents, the option is `+F`.
 ```
 $ less +F myfile.txt
@@ -163,7 +163,7 @@ In order to trun off the word-warp in less, the option is `-S`.
 $ less -S myfile.txt
 ```
 
-# Sort
+## Sort
 ```
 $ sort -nr -k 7 myfile.txt > newfile.txt
 ```
@@ -173,3 +173,15 @@ $ sort -nr -k 7 myfile.txt > newfile.txt
 - `-u` : to sort and remove duplicate
 
 <https://www.geeksforgeeks.org/sort-command-linuxunix-examples/>
+
+## Print
+```
+"23".zfill(3)
+"23".rjust(3, '0')
+"%03d"% 23
+format(23,'03')
+'{0:03d}'.format(23)
+```
+```
+023
+```

@@ -126,3 +126,33 @@ paste hs38_${arg[1]} In_GFE_${arg[1]}.* > In_GFE_${arg[1]}.txt && sm.sh Done_to_
 
 ssh userID@192.168.0.1 'mail -s "Your job is completed." mailID@mail.com <<< '$@
 ```
+
+# Ready for split
+```
+#!/bin/bash
+
+step=1
+file=cmdlist.txt
+
+for i in {0..367}
+do
+    a=splits${i}
+    for ((j=i; j<=1346;j+=368))
+    do
+        echo "python test.py $j $step"
+    done > $a
+
+done
+
+for i in {0..22}
+do
+    a=split${i}
+    rm $a
+    for ((j=i; j<=367;j+=16))
+    do
+        cat splits$j >> $a
+    done
+done
+
+rm splits*
+```

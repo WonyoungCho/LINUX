@@ -101,6 +101,7 @@ bind C-f command-prompt -p find-session 'switch-client -t %%'
 bind v split-window -v
 bind h split-window -h
 bind Tab last-window
+bind-key y set-window-option synchronize-panes
 
 bind a run "cut -c3- ~/.tmux.conf | sh -s _toggle_mouse"
 

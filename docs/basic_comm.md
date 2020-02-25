@@ -134,6 +134,13 @@ $ sed -i 's/+/"/' myfile
 $ sed -i '3iLINE contents' myfile  # 3i: 'LINE contents' is inserted into 3rd line of myfile.
 ```
 
+## Replace a first line
+```
+$ tail -n +2 old.txt > old.tmp
+$ cat head.txt old.tmp > new.txt
+$ rm old.tmp
+```
+
 ## Parallel
 ```
 $ parallel -j 30 {} < myfile.txt

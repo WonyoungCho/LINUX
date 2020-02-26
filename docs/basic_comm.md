@@ -193,3 +193,6 @@ format(23,'03')
 ```
 023
 ```
+
+## String manipulation
+<http://tldp.org/LDP/abs/html/string-manipulation.html>

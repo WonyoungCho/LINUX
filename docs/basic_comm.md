@@ -194,5 +194,17 @@ format(23,'03')
 023
 ```
 
+## Ulimit
+```
+$ ulimit -n # limit of handling number of files
+
+$ sudo emacs /ect/security/limit.conf
+user soft nofile    5000   # soft : warning when you open over 5000 files.
+user hard nofile    10000  # hard : cannot open over than 10000 files.
+
+$ sudo emacs /etc/profile
+ulimit -n 100000
+```
+
 ## String manipulation
 <http://tldp.org/LDP/abs/html/string-manipulation.html>

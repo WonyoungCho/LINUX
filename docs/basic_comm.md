@@ -208,3 +208,6 @@ ulimit -n 100000
 
 ## String manipulation
 <http://tldp.org/LDP/abs/html/string-manipulation.html>
+
+## Uniq
+<https://www.joinc.co.kr/w/man/1/uniq>

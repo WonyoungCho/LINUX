@@ -211,3 +211,21 @@ ulimit -n 100000
 
 ## Uniq
 <http://man7.org/linux/man-pages/man1/uniq.1.html>
+```
+  -c, --count           prefix lines by the number of occurrences
+  -d, --repeated        only print duplicate lines, one for each group
+  -D                    print all duplicate lines
+      --all-repeated[=METHOD]  like -D, but allow separating groups
+                                 with an empty line;
+                                 METHOD={none(default),prepend,separate}
+  -f, --skip-fields=N   avoid comparing the first N fields
+      --group[=METHOD]  show all items, separating groups with an empty line;
+                          METHOD={separate(default),prepend,append,both}
+  -i, --ignore-case     ignore differences in case when comparing
+  -s, --skip-chars=N    avoid comparing the first N characters
+  -u, --unique          only print unique lines
+  -z, --zero-terminated     line delimiter is NUL, not newline
+  -w, --check-chars=N   compare no more than N characters in lines
+      --help     display this help and exit
+      --version  output version information and exit
+```

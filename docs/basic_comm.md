@@ -210,4 +210,4 @@ ulimit -n 100000
 <http://tldp.org/LDP/abs/html/string-manipulation.html>
 
 ## Uniq
-<https://www.joinc.co.kr/w/man/1/uniq>
+<http://man7.org/linux/man-pages/man1/uniq.1.html>

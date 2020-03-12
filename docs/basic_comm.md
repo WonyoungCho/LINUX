@@ -1,6 +1,10 @@
 # Linux directory
 - <https://webdir.tistory.com/101>
 
+[Coreutils](https://www.gnu.org/software/coreutils/) - GNU core utilities
+
+<https://ftp.gnu.org/gnu/coreutils/>
+
 # Basic command
 - pdsh : run a command on multiple nodes in parallel
 > - pdsh -w 'node_name'

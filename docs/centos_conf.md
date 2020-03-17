@@ -99,3 +99,18 @@ $ sudo nvidia-xconfig
 $ touch ~/.Xauthority
 $ reboot
 ```
+
+# Remote Desktop
+```
+$ sudo yum install epel-release
+$ yum install tigervnc-server
+$ yum install xrdp
+
+$ sudo vi /etc/xrdp/xrdp.ini  # change xrdp port
+$ firewall-cmd --permanent --zone=public --add-port=3389/tcp
+$ firewall-cmd --reload
+
+$ systemctl start xrdp.service
+$ systemctl enable xrdp.service
+```
+

@@ -233,3 +233,8 @@ ulimit -n 100000
       --help     display this help and exit
       --version  output version information and exit
 ```
+
+## Transpose
+```
+$ tr -s ' '  '\n'< infile > outfile
+```

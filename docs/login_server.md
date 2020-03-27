@@ -6,7 +6,7 @@ $ wget https://ftp.gnu.org/gnu/emacs/emacs-26.3.tar.gz
 $ tar -zxvf emacs-26.3.tar.gz
 $ cd emacs-26.3
 $ ./configure --prefix=/home/ycho/emacs --without-x --with-gnutls=no
-$ make & make install
+$ make && make install
 ```
 
 # htop

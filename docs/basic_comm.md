@@ -237,4 +237,6 @@ ulimit -n 100000
 ## Transpose
 ```
 $ tr -s ' '  '\n'< infile > outfile
+or
+$ for j in {1..10};do echo $j;done |paste -s > outfile 
 ```

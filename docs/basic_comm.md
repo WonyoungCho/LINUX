@@ -183,6 +183,7 @@ $ sort -nr -k 7 myfile.txt > newfile.txt
 - `-k` : basis of any columns number
 - `-u` : to sort and remove duplicate
 - `-V` : version sort (4 5 X 2 9 Y -> 2 4 5 9 X Y)
+- `-g` : general numeric sort
 
 <https://www.geeksforgeeks.org/sort-command-linuxunix-examples/>
 

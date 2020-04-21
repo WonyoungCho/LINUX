@@ -41,6 +41,33 @@ $ make && make install
 # Bashrc
 ```
 $ vi ~/.bashrc
+alias ll='ls -alhvF'
+alias la='ls -A'
+alias l='ls -vxCF'
+alias em='emacs -nw'
+alias sem='sudo emacs -nw'
+alias edt='emacs -nw ~/.bashrc'
+alias jn='jupyter notebook &'
+alias vdf='column -t <  | less -#2 -N -S'
+alias du='du -h'
+alias df='df -h'
+alias dv='~/view.sh'
+alias les='less -S -N'
+alias wt='watch -n 1 "ls -alht"'
+alias ak='awk -F" " "!_[$1]++"'
+alias htop='htop -t -u user1'
+alias edm='em ~/.tmux.conf'
+alias cdc='cd /maha3/WYC/vcf/ADNI/'
+alias less='less -S'
+alias bt='bcftools'
+alias cdw='cd /var/www/html/'
+alias hv='java -jar ~/Haploview.jar -memory 20480'
+
+function cv() { column -t $1 |less;}
+
+alias tx='tar -xvzf'
+alias gx='gzip -d'
+
 alias edt='emacs -nw ~/.bashrc'
 alias edm='emacs -nw ~/.tmux.conf'
 alias em='emacs'

@@ -2,6 +2,7 @@
 - Install tmux on Centos
 ```
 $ sudo yum install libevent-devel ncurses-devel automake
+$ sudo apt-get install libncurses5-dev libncursesw5-dev # Ubuntu
 
 $ sudo yum remove tmux # remove old version of tmux
 $ wget https://github.com/tmux/tmux/releases/download/3.0/tmux-3.0.tar.gz

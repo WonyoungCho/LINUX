@@ -54,6 +54,22 @@ set -g status-left '#[fg=green](#S) #(whoami)'
 set -g status-right '#[fg=yellow]#(cut -d " " -f 1-3 /proc/loadavg)#[default] #[fg=white]%H:%M#[default]'
 ```
 
+# PIP server
+```
+$ mkdir ~/.pip
+$ emacs ~/.pip/pip.conf  # LINUX
+C:\> mkdir %appdata%\.pip
+C:\> echo  > %appdata%\.pip\pip.ini
+[global]
+index-url=http://ftp.daumkakao.com/pypi/simple
+trusted-host=ftp.daumkakao.com
+```
+
+# Ubuntu server
+```
+sed -i 's/archive.ubuntu.com/mirror.kakao.com/g' /etc/apt/sources.list
+```
+
 # Bashrc
 
 ```sh

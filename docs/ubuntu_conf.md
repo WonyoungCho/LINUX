@@ -32,10 +32,17 @@ mechanism if one is available. This may result in lower performance.
 & echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
 ```
 
-# Having problem about display, tk
+
+# Having problem with display, tk
 ```
 sudo apt install python3-tk
 sudo apt install imagemagick # open an image file
+```
+
+# Graphical applications
+```
+echo "export DISPLAY=localhost:0.0" >> ~/.bashrc
+sudo apt-get install x11-apps
 ```
 
 # Emacs latest

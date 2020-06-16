@@ -156,3 +156,19 @@ done
 
 rm splits*
 ```
+
+# While
+```
+cat file.txt|while IFS= read -r line
+    do
+        echo $line
+    done
+    
+or
+
+while IFS= read -r line
+    do
+        echo $line
+    done < file.txt
+```
+

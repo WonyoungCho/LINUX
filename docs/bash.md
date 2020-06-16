@@ -76,7 +76,7 @@ df_minorAmb.to_csv(path+'ambiguous_site.txt',index=None,sep='\t', float_format='
 chrm=$@
 
 input="ambiguous_site.txt"
-while read line
+while read -r line
 arg=($line)
 do
     if [ $chrm == "X" ]; then
@@ -156,19 +156,3 @@ done
 
 rm splits*
 ```
-
-# While
-```
-cat file.txt|while IFS= read -r line
-    do
-        echo $line
-    done
-    
-or
-
-while IFS= read -r line
-    do
-        echo $line
-    done < file.txt
-```
-

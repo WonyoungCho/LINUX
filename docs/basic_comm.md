@@ -243,6 +243,8 @@ $ for j in {1..10};do echo $j;done |paste -s > outfile
 ```
 
 ## Time
+<http://stackoverflow.com/a/556411/2223706>
+
 Real, User and Sys process time statistics.
 
 One of these things is not like the other. Real refers to actual elapsed time; User and Sys refer to CPU time used only by the process.
@@ -253,4 +255,4 @@ One of these things is not like the other. Real refers to actual elapsed time; U
 
 - **Sys** is the amount of CPU time spent in the kernel within the process. This means executing CPU time spent in system calls within the kernel, as opposed to library code, which is still running in user-space. Like 'user', this is only CPU time used by the process. See below for a brief description of kernel mode (also known as 'supervisor' mode) and the system call mechanism.
 
-<http://stackoverflow.com/a/556411/2223706>
+

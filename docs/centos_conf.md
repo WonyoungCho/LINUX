@@ -119,3 +119,20 @@ $ systemctl enable xrdp.service
 ```
 $ rpm -Uvh http://opensource.wandisco.com/centos/7/git/x86_64/wandisco-git-release-7-2.noarch.rpm
 ```
+
+# Docker
+```
+$ sudo yum -y install docker docker-registry
+$ sudo systemctl enable docker.service
+$ sudo systemctl start docker.service
+$ sudo systemctl status docker.service
+
+$ sudo docker pull cwhelan/shapeit4
+$ sudo docker images
+$ sudo docker run -i -t docker.io/cwhelan/shapeit4 /bin/bash
+
+$ sudo docker ps -a
+$ sudo docker start ID
+$ sudo docker attach ID
+```
+<https://hello-bryan.tistory.com/152>

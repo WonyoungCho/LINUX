@@ -114,3 +114,8 @@ $ systemctl start xrdp.service
 $ systemctl enable xrdp.service
 ```
 
+# Update
+- Lastest version of git
+```
+$ rpm -Uvh http://opensource.wandisco.com/centos/7/git/x86_64/wandisco-git-release-7-2.noarch.rpm
+```

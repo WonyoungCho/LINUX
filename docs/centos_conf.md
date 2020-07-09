@@ -139,5 +139,8 @@ $ sudo docker attach container-ID
 $ sudo docker stop container-ID
 $ sudo docker rm container-ID
 $ sudo docker rmi repository-ID
+
+$ sudo docker cp myfolder repository-ID:/data/
+
 ```
 <https://hello-bryan.tistory.com/152>

@@ -127,12 +127,17 @@ $ sudo systemctl enable docker.service
 $ sudo systemctl start docker.service
 $ sudo systemctl status docker.service
 
-$ sudo docker pull cwhelan/shapeit4
+$ sudo docker search shapeit4
+$ sudo docker pull lifebitai/shapeit4
 $ sudo docker images
-$ sudo docker run -i -t docker.io/cwhelan/shapeit4 /bin/bash
+$ sudo docker run -i -t docker.io/lifebitai/shapeit4 /bin/bash
 
 $ sudo docker ps -a
-$ sudo docker start ID
-$ sudo docker attach ID
+$ sudo docker start container-ID
+$ sudo docker attach container-ID
+
+$ sudo docker stop container-ID
+$ sudo docker rm container-ID
+$ sudo docker rmi repository-ID
 ```
 <https://hello-bryan.tistory.com/152>

@@ -140,7 +140,7 @@ $ sudo docker stop container-ID
 $ sudo docker rm container-ID
 $ sudo docker rmi repository-ID
 
-$ sudo docker cp myfolder repository-ID:/data/
+$ sudo docker cp myfolder container-ID:/data/
 
 ```
 <https://hello-bryan.tistory.com/152>

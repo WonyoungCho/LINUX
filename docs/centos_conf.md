@@ -148,4 +148,6 @@ $ sudo docker cp myfolder container-ID:/data/
 # DB
 <https://mariadb.com/resources/blog/installing-mariadb-10-on-centos-7-rhel-7/>
 
+<https://bamdule.tistory.com/59>
+
 <http://ftp.jaist.ac.jp/pub/mysql/Downloads/MySQL-8.0/>

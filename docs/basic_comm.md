@@ -28,7 +28,7 @@ $ awk -F',' '{print NF; exit}' filename.csv # number of columns
 $ find ./  -printf "%f\n"
 ```
 
-## Delete except myfile
+## Delete all except myfile
 ```
 $ find . ! -name myname -delete 
 ```

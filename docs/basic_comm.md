@@ -28,6 +28,12 @@ $ awk -F',' '{print NF; exit}' filename.csv # number of columns
 $ find ./  -printf "%f\n"
 ```
 
+## Delete except myfile
+```
+$ find . ! -name myname -delete 
+```
+
+
 ## Change file extension
 ```
 $ rename "s/\.old$/.new/" *

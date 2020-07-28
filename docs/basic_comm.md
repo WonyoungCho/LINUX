@@ -30,7 +30,7 @@ $ find ./  -printf "%f\n"
 
 ## Delete all except myfile
 ```
-$ find . ! -name myname -delete 
+$ find . ! -name myfile -delete 
 ```
 
 

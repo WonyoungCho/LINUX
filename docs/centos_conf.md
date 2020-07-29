@@ -151,3 +151,8 @@ $ sudo docker cp myfolder container-ID:/data/
 <https://bamdule.tistory.com/59>
 
 <http://ftp.jaist.ac.jp/pub/mysql/Downloads/MySQL-8.0/>
+
+# JAVA 8
+```
+$ sudo yum install java-1.8.0-openjdk
+```

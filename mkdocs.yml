@@ -19,6 +19,7 @@ pages:
     - Ubuntu : 'ubuntu_conf.md'
     - R-Studio:
         - Introduction : 'rstudio_int.md'
+        - Packages: 'rstudio_pac.md'
     - Golang:
         - Introduction : 'golang_int.md'
     - Haskell:

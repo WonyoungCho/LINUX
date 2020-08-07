@@ -265,6 +265,6 @@ One of these things is not like the other. Real refers to actual elapsed time; U
 ## Rsync
 <https://www.lesstif.com/system-admin/rsync-data-backup-12943658.html>
 ```
-$ sshpass -p12345 rsync -avh --progress --update /DATA/ user@192.168.10.1:/BACKUP
+$ sshpass -p12345 rsync -avh --progress --update /DATA/ user@192.168.10.1:/BACKUP --log-file=./rsync20200807.log
 ```
 - The files in `/DATA/` will be tranfered to `/BACKUP/` directory. If you run this command without `/` in `/DATA/`, the `/DATA/` will be trasfer to `/BACKUP/`. So that will be `/BACKUP/DATA/`.

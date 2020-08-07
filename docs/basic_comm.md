@@ -262,3 +262,9 @@ One of these things is not like the other. Real refers to actual elapsed time; U
 - **Sys** is the amount of CPU time spent in the kernel within the process. This means executing CPU time spent in system calls within the kernel, as opposed to library code, which is still running in user-space. Like 'user', this is only CPU time used by the process. See below for a brief description of kernel mode (also known as 'supervisor' mode) and the system call mechanism.
 
 
+## Rsync
+<https://www.lesstif.com/system-admin/rsync-data-backup-12943658.html>
+```
+$ sshpass -p12345 rsync -avzrh /DATA/ user@192.168.10.1:/BACKUP
+```
+- The files in /DATA/ will be tranfered to /BACKUP/ directory. If you run this command without `/` in /DATA/, the /DATA/ will be trasfer to /BACKUP. So that will be /BACKUP/DATA/.

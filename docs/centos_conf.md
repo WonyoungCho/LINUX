@@ -160,5 +160,5 @@ $ sudo yum install java-1.8.0-openjdk
 # GNU Parallel
 https://ftp.gnu.org/gnu/parallel/
 ```
-$ wget https://ftp.gnu.org/gnu/parallel/parallel-20200822.tar.bz2
+$ wget https://ftp.gnu.org/gnu/parallel/parallel-latest.tar.bz2
 ```

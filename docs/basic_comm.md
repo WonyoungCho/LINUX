@@ -268,3 +268,9 @@ One of these things is not like the other. Real refers to actual elapsed time; U
 $ sshpass -p12345 rsync -avh --progress --update /DATA/ user@192.168.10.1:/BACKUP --log-file=./rsync20200807.log
 ```
 - The files in `/DATA/` will be tranfered to `/BACKUP/` directory. If you run this command without `/` in `/DATA/`, the `/DATA/` will be trasfer to `/BACKUP/`. So that will be `/BACKUP/DATA/`.
+
+## Keys
+```
+$ ssh-keygen -t rsa
+$ ssh-copy-id user@ipadd
+```

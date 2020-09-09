@@ -86,6 +86,14 @@ export PATH="/ssd/program/plink:$PATH"
 
 # X11
 ```
+$ sudo yum install xorg-x11-apps.x86_64
+$ sudo yum install xorg-x11-xauth.x86_64
+$ sudo yum install xorg-x11-server-Xorg.x86_64
+$ sudo emacs /etc/ssh/sshd_config
+X11Forwarding yes
+```
+**OLD**
+```
 $ sudo yum install -y xorg-x11-apps
 $ sudo yum groupinstall -y "X Window System" "Desktop" "Fonts" "Korean Support"
 $ sudo emacs /etc/ssh/sshd_config

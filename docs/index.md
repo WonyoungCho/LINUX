@@ -1,4 +1,7 @@
 # LINUX
+```
+$ wget https://raw.githubusercontent.com/WonyoungCho/LINUX/master/docs/.emacs
+```
 
 ```
 $ emacs ~/.emacs

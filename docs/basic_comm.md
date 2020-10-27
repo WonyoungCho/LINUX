@@ -132,6 +132,10 @@ $ awk -F'[./]' {print $1} filename
 ```
 $ awk -F/ 'BEGIN {max = 0} {if ($1>max) max=$1} END {print max}' filename
 ```
+- Conditional result
+```
+awk '{if($1 > 0){print $0} else {print $1}}' filename
+```
 
 ## SED
 ```

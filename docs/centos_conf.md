@@ -168,3 +168,11 @@ https://ftp.gnu.org/gnu/parallel/
 ```
 $ wget https://ftp.gnu.org/gnu/parallel/parallel-latest.tar.bz2
 ```
+
+# Conda
+```
+$ conda create -n proj_name python=3.7
+$ source activate proj_name
+$ source deactivate
+$ conda env remove -n env_name
+```

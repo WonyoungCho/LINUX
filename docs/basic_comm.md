@@ -278,3 +278,9 @@ $ sshpass -p12345 rsync -avh --progress --update /DATA/ user@192.168.10.1:/BACKU
 $ ssh-keygen -t rsa
 $ ssh-copy-id user@ipadd
 ```
+
+## Timezone
+```
+$ apt install tzdata
+$ tzselect
+```

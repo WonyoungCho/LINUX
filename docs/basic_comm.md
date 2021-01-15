@@ -283,4 +283,6 @@ $ ssh-copy-id user@ipadd
 ```
 $ apt install tzdata
 $ tzselect
+
+$ ntpdate -u time.wisdows.com
 ```

@@ -158,6 +158,7 @@ $ rm old.tmp
 ## Parallel
 ```
 $ parallel -j 30 {} < myfile.txt
+$ parallel -j3 --bar -S192.168.10.{21..25} -a command_file # spread 3 jobs to each of 192.168.10.{21..25}
 ```
 
 ## Job list

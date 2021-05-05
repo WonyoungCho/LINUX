@@ -81,3 +81,10 @@ $ emacs ~/.emacs
 (add-hook 'python-mode-hook
   (lambda () (setq python-indent-offset 4)))
 ```
+
+- Nextflow-mode
+```
+$ wget -P ~/.emacs.d/ https://raw.githubusercontent.com/Emiller88/nextflow-mode/master/nextflow-mode.el
+$ emacs
+M-x package-install-file
+```

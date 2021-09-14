@@ -9,3 +9,9 @@ library(vcfR)
 library(startmrca) 
 
 ```
+
+# Emacs
+```
+M-x package-refresh-contents ENTER
+M-x package-install ENTER ess ENTER
+```

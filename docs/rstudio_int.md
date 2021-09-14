@@ -1,5 +1,9 @@
 # Instroduction
 
+> <https://cran.r-project.org/>
+> <https://www.rstudio.com/products/rstudio/download-server/>
+
+
 ## Install R-Studio
 
 - Connect to R Homepage.

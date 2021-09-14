@@ -35,7 +35,7 @@ data <- get(load(args[1]))
 
 # Argument 2
 ```
-$ ./test.R -i pbmc.rda
+$ Rscript test.R -i pbmc.rda
 ```
 ```
 #!/usr/bin/env Rscript

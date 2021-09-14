@@ -1,4 +1,4 @@
-# Instroduction
+# Introduction
 
 > <https://cran.r-project.org/>
 > 

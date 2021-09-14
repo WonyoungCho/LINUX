@@ -61,7 +61,7 @@ www-port=8787
 
 - Verification.
 ```
-$ sudo rstudio-serve stop
+$ sudo rstudio-server stop
 $ sudo rstudio-server verify-installation
 ```
 

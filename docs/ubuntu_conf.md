@@ -92,6 +92,12 @@ $ netstat -an
 ```
 
 ```
+$ PowerShell.exe -ExecutionPolicy Bypass -File .\external.ps1
+```
+
+external.ps1
+
+```
 $remoteport = bash.exe -c "ifconfig eth0 | grep 'inet '"
 $found = $remoteport -match '\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}';
 

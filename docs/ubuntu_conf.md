@@ -78,3 +78,15 @@ ImportError: cannot import name 'main'
 ```
 $ sudo python3 -m pip uninstall pip && sudo apt-get install python3-pip --reinstall
 ```
+
+# WSL2 ssh
+```
+$ sudo apt install openssh-server
+$ sudo ssh-keygen -A
+$ sudo service ssh start
+$ sudo vi /etc/ssh/sshd_config
+PermitRootLogin yes
+PasswordAuthentication yes
+$ sudo service ssh restart
+$ netstat -an
+```

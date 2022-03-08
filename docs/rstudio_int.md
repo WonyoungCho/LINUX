@@ -11,25 +11,25 @@
 
 > <https://cran.r-project.org/>
 
-- Download R-3.6.0.tar.gz file.
+- Download R-4.1.2.tar.gz file.
 
-> <https://cran.r-project.org/src/base/R-4/R-4.1.1.tar.gz>
+> <https://cran.r-project.org/src/base/R-4/R-4.1.2.tar.gz>
 
 - Unzip the R file to a folder.
 ```
-$ tar -zxvf R-4.1.1.tar.gz -C /home/ycho/R
+$ tar -zxvf R-4.1.2.tar.gz -C /home/ycho/R
 ```
 
 - Install.
 ```
-$ cd /home/ycho/R/R-4.1.1
+$ cd /home/ycho/R/R-4.1.2
 $ ./configure  --enable-R-shlib --with-readline=no --with-x=no
 $ make
 ```
 
 - Execution.
 ```
-$ cd /home/ycho/R/R-4.1.1/bin
+$ cd /home/ycho/R/R-4.1.2/bin
 $ ./R
 ```
 

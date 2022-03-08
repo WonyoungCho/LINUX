@@ -23,7 +23,7 @@ $ tar -zxvf R-4.1.2.tar.gz -C /home/ycho/R
 - Install.
 ```
 $ cd /home/ycho/R/R-4.1.2
-$ ./configure  --enable-R-shlib --with-readline=no --with-x=no
+$ ./configure  --enable-R-shlib
 $ make
 ```
 

@@ -6,7 +6,7 @@
 
 
 ```bash
-$ sudo apt install gcc-7 g++-7 gfortran liblzma-dev libblas-dev libreadline-dev xorg-dev libpcre2-dev dirmngr libcurl4-openssl-dev libbz2-dev 
+$ sudo apt install -y gcc-7 g++-7 gfortran liblzma-dev libblas-dev libreadline-dev xorg-dev libpcre2-dev dirmngr libcurl4-openssl-dev libbz2-dev openjdk-8-jdk
 ```
 
 ## Install R-Studio

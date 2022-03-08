@@ -5,6 +5,10 @@
 > <https://www.rstudio.com/products/rstudio/download-server/>
 
 
+```bash
+$ sudo apt install gcc-7 g++-7 gfortran liblzma-dev libblas-dev libreadline-dev xorg-dev libpcre2-dev dirmngr libcurl4-openssl-dev libbz2-dev 
+```
+
 ## Install R-Studio
 
 - Connect to R Homepage.

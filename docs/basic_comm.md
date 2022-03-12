@@ -274,7 +274,7 @@ $ sshpass -p12345 rsync -avh --progress --update /DATA/ user@192.168.10.1:/BACKU
 ```
 - The files in `/DATA/` will be tranfered to `/BACKUP/` directory. If you run this command without `/` in `/DATA/`, the `/DATA/` will be trasfer to `/BACKUP/`. So that will be `/BACKUP/DATA/`.
 
-## Keys
+## SSH Keys
 ```
 $ ssh-keygen -t rsa
 $ ssh-copy-id user@ipadd_to_connect_without_password

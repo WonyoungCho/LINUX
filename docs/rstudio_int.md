@@ -37,6 +37,17 @@ $ cd /home/ycho/R/R-4.1.2/bin
 $ ./R
 ```
 
+## Mirror
+- <https://cran.r-project.org/mirrors.html>
+
+```bash
+$ vi .Rprofile
+local({
+  r <- getOption("repos")
+  r["CRAN"] <- "http://healthstat.snu.ac.kr/CRAN/"
+  options(repos = r)
+})
+```
 
 ## Install R-Studio Server
 

@@ -287,3 +287,8 @@ $ tzselect
 
 $ ntpdate -u time.wisdows.com
 ```
+
+## Find
+```
+$ find -iname *.png -exec echo {} \;
+```

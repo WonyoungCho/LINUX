@@ -290,5 +290,6 @@ $ ntpdate -u time.wisdows.com
 
 ## Find
 ```
-$ find -iname *.png -exec mv {} move_path \;
+$ find -iname *.png -exec cp {} copy_path \;
+$ find -iname *.png | xargs -n 100 cp -t copy_path
 ```

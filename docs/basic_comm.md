@@ -290,5 +290,5 @@ $ ntpdate -u time.wisdows.com
 
 ## Find
 ```
-$ find -iname *.png -exec echo {} \;
+$ find -iname *.png -exec mv {} move_path \;
 ```

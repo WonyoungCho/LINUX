@@ -1,5 +1,6 @@
 # Packages
 ```
+install.packages("devtools")
 update.packages(repos='http://cran.us.r-project.org',ask = FALSE)
 install.packages('xml2', repos='http://cran.us.r-project.org')
 install.packages('devtools', repos='http://cran.us.r-project.org')

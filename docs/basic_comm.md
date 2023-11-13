@@ -277,7 +277,7 @@ $ sshpass -p12345 rsync -avh --progress --update /DATA/ user@192.168.10.1:/BACKU
 ## SSH Keys
 ```
 $ ssh-keygen -t rsa
-$ ssh-copy-id -i ~/.ssh/id_rsa.pub-p 1234 user@ipadd_to_connect_without_password
+$ ssh-copy-id -i ~/.ssh/id_rsa.pub -p 1234 user@ipadd_to_connect_without_password
 ```
 
 ## Timezone
